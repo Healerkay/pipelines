@@ -4,11 +4,11 @@ function Home(){
 
     return <>
                 <Navbar></Navbar>
-                <div className="jumbotron bg-primary">
-                    <h3>Books I Love to Read &gt; <small>A curated list of books all of us are currently reading ...</small></h3>
+                <div className="jumbotron bg-warning">
+                    <h3>Books I Love to Read &gt; <small>A curated list of books all of us are currently reading today ...</small></h3>
                     <hr></hr>
                     <p>
-                        <button className="btn btn-lg btn-primary">Add Your Favourite Books</button>
+                        <button className="btn btn-lg btn-danger">Add Your Books</button>
                     </p>
                 </div>
                 <div className="container-fluid">
